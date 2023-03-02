@@ -66,20 +66,7 @@ export const NAV = [
         id: 3,
         title: '컬렉션 & 브라이덜',
         link: '/',
-        submenu: [
-            {
-                title: '01컬렉션 & 브라이덜',
-                link: '/sub01',
-            },
-            {
-                title: '02컬렉션 & 브라이덜',
-                link: '/sub02',
-            },
-            {
-                title: '03컬렉션 & 브라이덜',
-                link: '/sub03',
-            },
-        ]
+
     },
     {
         id: 4,
