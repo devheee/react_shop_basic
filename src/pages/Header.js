@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { NAV } from "../data/default";
 import { Inner } from "./common"
 import GlobalNav from "./GlobalNav";
+import Search from "./Search";
 
 const Header = ({ DEFAULT, NAV }) => {
     return (
@@ -15,6 +16,9 @@ const Header = ({ DEFAULT, NAV }) => {
                 <nav className="GlobalGnb">
                     <GlobalNav NAV={NAV} />
                 </nav>
+                <div className="right">
+                    <Search />
+                </div>
             </Inner>
         </header>
     )

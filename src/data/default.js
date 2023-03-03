@@ -9,16 +9,19 @@ export const DEFAULT_CONTENTS = [
         ID: 1,
         title: `01.JEWELLERY COLLECTION`,
         description: "모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다. ",
+        color: '#336699',
     },
     {
         ID: 2,
         title: `02.JEWELLERY COLLECTION`,
         description: "모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다. ",
+        color: '#663399',
     },
     {
         ID: 3,
         title: `03.JEWELLERY COLLECTION`,
         description: "모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다. ",
+        color: '#996633',
     }
 ]
 

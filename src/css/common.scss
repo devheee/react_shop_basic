@@ -41,3 +41,45 @@
         }
     }
 }
+
+
+.MainSlide {
+    .itm {
+        position: relative;
+        height: 600px;
+
+        .inner {
+            position: absolute;
+            inset: 50% auto auto 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-shadow: 0 0 5px #000;
+
+            h2 {
+                font-size: 50px;
+                font-weight: 700;
+                margin: 0 0 10px 0;
+            }
+
+            p {
+                font-size: 14px;
+                margin: 0 0 20px 0;
+            }
+        }
+    }
+
+    @for $i from 1 to 4 {
+        @if (#{$i}==2) {
+            .itm0#{$i} .inner {
+                color: #333;
+            }
+
+        }
+
+        .itm0#{$i} {
+            background: url(../../public/assets/mainvisual0#{$i}.jpg) no-repeat center center/cover;
+        }
+    }
+
+
+}
