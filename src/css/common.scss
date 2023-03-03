@@ -44,9 +44,21 @@
 
 
 .MainSlide {
+
+    //슬라이드 깜박임 제거
+    .slick-track,
+    .slick-list {
+        transition-delay: 0.3s;
+    }
+
+
     .itm {
         position: relative;
         height: 600px;
+
+        &.on h2 {
+            transform: translate(0, 100px);
+        }
 
         .inner {
             position: absolute;
@@ -59,6 +71,7 @@
                 font-size: 50px;
                 font-weight: 700;
                 margin: 0 0 10px 0;
+                transition: 0.5s;
             }
 
             p {
