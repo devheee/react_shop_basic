@@ -47,14 +47,13 @@ const MainVisual = ({ DEFAULT_CONTENTS }) => {
                 <button onClick={() => s.current.slickNext()}>앞으로가기</button>
             </div>
             <div className="num">
-                현재 슬라이드 번호 : {sNum + 1}<br />
-                전체슬라이드갯수 : {DEFAULT_CONTENTS.length}
+                <strong>{sNum && (sNum + 1)}</strong> / <span>{DEFAULT_CONTENTS.length}</span>
             </div>
-            <ul>
+            <ul className="dots">
                 {
-                    DEFAULT_CONTENTS.map((_, slideIdx) => {
+                    DEFAULT_CONTENTS.map((_, slideIndx) => {
                         return (
-                            <li ><button onClick={() => s.current.slickGoTo(slideIdx)}>{slideIdx + 1}</button></li>
+                            <li className={slideIndx === sNum ? 'on' : ''} key={slideIndx}><button onClick={() => s.current.slickGoTo(slideIndx)}>{slideIndx + 1}</button></li>
                         )
                     })
                 }

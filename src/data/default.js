@@ -4,6 +4,39 @@ export const DEFAULT = {
     address: 'Graff France Headquarters 237 rue Saint-Honore Paris 75001',
 }
 
+export const DEFAULT_PRODUCT = [
+    {
+        id: 1,
+        title: "제품이름01",
+        description: "스톤 그리고 색상들을 멋진 조합 01"
+    },
+    {
+        id: 2,
+        title: "제품이름02",
+        description: "스톤 그리고 색상들을 멋진 조합 02"
+    },
+    {
+        id: 3,
+        title: "제품이름03",
+        description: "스톤 그리고 색상들을 멋진 조합 03"
+    },
+    {
+        id: 4,
+        title: "제품이름04",
+        description: "스톤 그리고 색상들을 멋진 조합 04"
+    },
+    {
+        id: 5,
+        title: "제품이름05",
+        description: "스톤 그리고 색상들을 멋진 조합 05"
+    },
+    {
+        id: 6,
+        title: "제품이름06",
+        description: "스톤 그리고 색상들을 멋진 조합 06"
+    }
+]
+
 export const DEFAULT_CONTENTS = [
     {
         ID: 1,
