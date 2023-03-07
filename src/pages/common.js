@@ -12,8 +12,12 @@ border: 1px solid #333;
 text-transform: uppercase;
 font-size: 12px;
 
-${props => css`
-background: ${props.color};
-    `};
+${props => props.color && css`
+    background: ${props.color};
+`}
+`
 
+export const DEFAULT_SECTION = styled.section`
+padding:100px 0;
+text-align:center;
 `

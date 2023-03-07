@@ -4,7 +4,10 @@ import Header from "./pages/Header";
 import MainBanner from "./pages/MainBanner";
 import MainContent from "./pages/MainContent";
 import MainMovie from "./pages/MainMovie";
+import MainProduct from "./pages/MainProduct";
+import MainTab from "./pages/MainTab";
 import MainVisual from "./pages/MainVisual";
+import MainYoutube from "./pages/MainYoutube";
 import TopBanner from "./pages/TopBanner";
 
 const App = () => {
@@ -15,7 +18,10 @@ const App = () => {
             <MainVisual DEFAULT_CONTENTS={DEFAULT_CONTENTS} />
             <MainContent DEFAULT_CONTENTS={DEFAULT_CONTENTS} DEFAULT_PRODUCT={DEFAULT_PRODUCT} />
             <MainBanner DEFAULT_CONTENTS={DEFAULT_CONTENTS} />
-            <MainMovie DEFAULT_CONTENTS={DEFAULT_CONTENTS} />
+            {/* <MainMovie DEFAULT_CONTENTS={DEFAULT_CONTENTS} />
+            <MainYoutube /> */}
+            <MainProduct DEFAULT_CONTENTS={DEFAULT_CONTENTS} DEFAULT_PRODUCT={DEFAULT_PRODUCT} />
+            <MainTab DEFAULT_CONTENTS={DEFAULT_CONTENTS} DEFAULT_PRODUCT={DEFAULT_PRODUCT} />
             <Footer DEFAULT={DEFAULT} NAV={NAV} />
         </>
     )
