@@ -1,5 +1,6 @@
 {
   "name": "shop01",
+  "homepage": "http://devheee.github.io/react_shop_basic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

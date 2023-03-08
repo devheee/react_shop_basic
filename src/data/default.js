@@ -2,6 +2,20 @@ export const DEFAULT = {
     company: 'Graff House',
     tel: '33 (1) 83 75 54 54',
     address: 'Graff France Headquarters 237 rue Saint-Honore Paris 75001',
+    service: [
+        { title: '이용약관', link: '/' },
+        { title: '문의하기', link: '/' },
+        { title: '개인정보 취급방침', link: '/' },
+        { title: '방문 예약하기', link: '/' },
+        { title: '사이즈 가이드', link: '/' },
+        { title: '그라프 하우스 소개', link: '/' },
+    ],
+    familyLink: [
+        { title: 'FamilyLink', link: '/' },
+        { title: 'instagram', link: '/i' },
+        { title: 'facebook', link: '/f' },
+        { title: 'youtube', link: '/y' },
+    ]
 }
 
 export const DEFAULT_PRODUCT = [
