@@ -77,7 +77,7 @@ const FooterService = ({ DEFAULT }) => {
             {
                 DEFAULT.service.map((service, idx) => {
                     return (
-                        <LI><Link to={service.link}>{service.title}</Link></LI>
+                        <LI key={idx}><Link to={service.link}>{service.title}</Link></LI>
                     )
                 })
             }
