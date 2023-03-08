@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react_shop_basic/static/css/main.42ef4d17.css",
-    "main.js": "/react_shop_basic/static/js/main.aedff61d.js",
+    "main.css": "/react_shop_basic/static/css/main.fbff5279.css",
+    "main.js": "/react_shop_basic/static/js/main.ea0f1208.js",
     "static/media/mainvisual02.jpg": "/react_shop_basic/static/media/mainvisual02.7ed387b0bba63750dc1f.jpg",
     "static/media/mainvisual01.jpg": "/react_shop_basic/static/media/mainvisual01.de6445f47ca5c7eeb331.jpg",
     "static/media/mainvisual03.jpg": "/react_shop_basic/static/media/mainvisual03.0f235368fbc6d422516f.jpg",
     "index.html": "/react_shop_basic/index.html",
-    "main.42ef4d17.css.map": "/react_shop_basic/static/css/main.42ef4d17.css.map",
-    "main.aedff61d.js.map": "/react_shop_basic/static/js/main.aedff61d.js.map"
+    "main.fbff5279.css.map": "/react_shop_basic/static/css/main.fbff5279.css.map",
+    "main.ea0f1208.js.map": "/react_shop_basic/static/js/main.ea0f1208.js.map"
   },
   "entrypoints": [
-    "static/css/main.42ef4d17.css",
-    "static/js/main.aedff61d.js"
+    "static/css/main.fbff5279.css",
+    "static/js/main.ea0f1208.js"
   ]
 }
